@@ -13,8 +13,6 @@ toc_label: "Contents"
 toc_sticky: true
 ---
 
-*Liang Zhang. Independent researcher, transitioning into mechanistic interpretability and AI safety.*
-
 Base language models, given a few-shot prompt, often copy the surface form of the demonstrations instead of reasoning about the query, and instruction tuning largely removes this. This note asks two questions about that copying. Does the base model fail because it never computes the query-appropriate answer, or because it computes it but then lets the copied word win? And where in the network does instruction tuning intervene to change the outcome?
 
 The answers point in a consistent direction. The base model does compute the query-appropriate answer: that signal (the competitor) stays present in the residual stream throughout, and the copied word only overtakes it in the upper layers. So the copying is executed late. But a layer transplant locates the decision much earlier: replacing just the first two layers is enough to flip whether the copying happens at all. The change is concentrated in the earliest layers, while the copying itself plays out near the end. These are two separate findings, a late execution and an early decision; how the early state leads to the late outcome is something this work locates but does not yet explain.
