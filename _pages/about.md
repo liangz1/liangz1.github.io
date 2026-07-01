@@ -11,4 +11,4 @@ My interest is in understanding what happens inside language models: how they re
 
 Posts here are working notes on that research. I try to be explicit about what each experiment shows and does not show, and to report negative results alongside positive ones.
 
-You can reach me on [Linkedin]([https://x.com/liangzlz](https://www.linkedin.com/in/liangz1/).
+You can reach me on [Linkedin](https://www.linkedin.com/in/liangz1/).
