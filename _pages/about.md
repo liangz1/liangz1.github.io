@@ -1,8 +1,14 @@
 ---
-permalink: /about/
 title: "About"
+permalink: /about/
+layout: single
+author_profile: true
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+I am an independent researcher working on mechanistic interpretability. Before this I spent six years as a software engineer at Databricks.
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+My interest is in understanding what happens inside language models: how they represent information, where specific behaviors are decided in the network, and what training stages like instruction tuning actually change. I approach this in the spirit of "LLM neuroscience", using causal tools such as cross-model activation patching, the logit lens, and attention analysis to localize behaviors rather than only describe them.
+
+Posts here are working notes on that research. I try to be explicit about what each experiment shows and does not show, and to report negative results alongside positive ones.
+
+You can find my code and experiments on [GitHub](https://github.com/liangz1) and reach me on [X](https://x.com/liangzlz).
